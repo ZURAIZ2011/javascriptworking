@@ -223,7 +223,7 @@ console.log(fullname.includes("R"))
 console.log(fullname.includes("J"))
 
 // includeof 
-let message = "javascript is an front end language"
+let message = "javascript is a front end language"
 console.log(message.indexOf("front"))
 console.log(message.indexOf("python"))
 
@@ -231,3 +231,8 @@ console.log(message.indexOf("python"))
 
 // slice 
 console.log(message.slice(4,10))
+console.log(message.slice(27,35))
+
+
+// replace 
+console.log(message.replace("javascript","python"))
