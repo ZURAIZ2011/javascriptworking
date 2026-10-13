@@ -77,7 +77,7 @@
 
 // car = "bmw"
 // console.log(car);
- 
+
 
 
 
@@ -224,15 +224,34 @@ console.log(fullname.includes("J"))
 
 // includeof 
 let message = "javascript is a front end language"
+
+
+
+
 console.log(message.indexOf("front"))
+
 console.log(message.indexOf("python"))
+// pyhton does not exist so ans will be -1 
 
 
 
 // slice 
-console.log(message.slice(4,10))
-console.log(message.slice(27,35))
+console.log(message.slice(4, 10))
+
+console.log(message.slice(26, 34))
 
 
 // replace 
-console.log(message.replace("javascript","python"))
+
+console.log(message);
+
+
+let text1 = message.replace("javascript", "python")
+console.log(text1);
+
+
+
+let text2 = text1.replace("front", "back")
+console.log(text2);
+
+
