@@ -39,3 +39,4 @@ console.log(" ");
 let word = "Programming"
 console.log(word.indexOf("g"));
 console.log(word.slice(0,7));
+
