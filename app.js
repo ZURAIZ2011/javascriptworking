@@ -256,27 +256,74 @@
 
 
 // trim 
-let home = "    hello world    "
-console.log(home.trim());
+// let home = "    hello world    "
+// console.log(home.trim());
 
 
-// strats with  
-let text1 = "hello this is javascript"
-console.log(text1.startsWith("hello"));
-// true 
+// // strats with  
+// let text1 = "hello this is javascript"
+// console.log(text1.startsWith("hello"));
+// // true 
 
 
-// ends with 
-console.log(text1.endsWith("language"));
+// // ends with 
+// console.log(text1.endsWith("language"));
 
 
 
-// repeat 
-let text2 = "hello "
-console.log(text2.repeat(10));
+// // repeat 
+// let text2 = "hello "
+// console.log(text2.repeat(10));
 
 
-// split 
-text3 = "I,love,pakistan"
-console.log(text3.split(","));
+// // split 
+// text3 = "I,love,pakistan"
+// console.log(text3.split(","));
+
+// numbers data type 
+// arithmetic operators 
+
+// addition 
+let num1 = 10
+let num2 = 20
+let result = num1 + num2
+console.log(result);
+
+
+// subtraction 
+let num3 = 10
+let num4 = 20
+let result1 = num3 - num4
+console.log(result1);
+
+
+// division 
+let num5 = 10
+let num6 = 20
+let result2 = num5 / num6
+console.log(result2);
+
+
+// multiplication 
+let num7 = 10
+let num8 = 20
+let result3 = num7 * num8
+console.log(result3);
+
+
+
+// modulas (remainder 
+let num9 = 10
+let num10 = 20
+let result4 = num9 % num10
+console.log(result4);
+
+
+
+// exponent 
+
+let num11 = 10
+let num12 = 20
+let result5 = num11 ** num12
+console.log(result5);
 
