@@ -92,23 +92,77 @@
 // console.log(name);
 
 
-let total = prompt( "Your total price")
-// let final_price = 
+// let total = prompt( "Your total price")
+// // let final_price = 
 
 
-document.write(`Total price =Rs. ${total}`)
+// document.write(`Total price =Rs. ${total}`)
 
 
-document.write("<br>")
+// document.write("<br>")
 
-let discount = 15/100 * total
+// let discount = 15/100 * total
 
-document.write(`discount  = Rs. ${15/100 * total}`)
-
-
-document.write("<br>")
+// document.write(`discount  = Rs. ${15/100 * total}`)
 
 
+// document.write("<br>")
 
-document.write(`Discounted price  =Rs. ${total - discount}`) 
+
+
+// document.write(`Discounted price  =Rs. ${total - discount}`) 
+
+
+
+
+// comparison operator 
+
+// let age = 20
+// console.log(age == 20);    //true
+// console.log(age === "20");    //false
+// console.log(age != 20);      // false
+// console.log(age !== "20");    // true
+// console.log(age > 15);     //true
+
+
+
+// console.log(age < 15);      //false
+
+
+
+// console.log(age >= 16);     // true
+
+
+
+
+
+// console.log("10" < "20");  //true
+
+
+
+
+
+
+// conditions
+
+let num = prompt("enter a number")
+
+if(num % 2  == 0){
+    alert("Your number is even.")
+}  else{
+   alert("Your number is odd.")  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
