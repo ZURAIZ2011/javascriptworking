@@ -1,42 +1,42 @@
 
 
-let course = "WEB DEVELOPMENT"
-console.log(course.toLowerCase());
+// let course = "WEB DEVELOPMENT"
+// console.log(course.toLowerCase());
 
 
-let course_lower = course.toLowerCase()
+// let course_lower = course.toLowerCase()
 
-console.log(course_lower.indexOf("development"));
-
-
-
-
-
-console.log(" ");
+// console.log(course_lower.indexOf("development"));
 
 
 
 
 
-let city = "KARACHI PAKISTAN"
-console.log(city.toLowerCase());
-
-
-
-let city_lower = city.toLowerCase()
-
-console.log(city_lower.includes("karachi"));
+// console.log(" ");
 
 
 
 
 
-console.log(" ");
+// let city = "KARACHI PAKISTAN"
+// console.log(city.toLowerCase());
+
+
+
+// let city_lower = city.toLowerCase()
+
+// console.log(city_lower.includes("karachi"));
 
 
 
 
-let word = "Programming"
-console.log(word.indexOf("g"));
-console.log(word.slice(0,7));
+
+// console.log(" ");
+
+
+
+
+// let word = "Programming"
+// console.log(word.indexOf("g"));
+// console.log(word.slice(0,7));
 

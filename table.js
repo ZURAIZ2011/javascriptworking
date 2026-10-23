@@ -145,26 +145,70 @@
 
 // conditions
 
-let num = prompt("enter a number")
+// let num = prompt("enter a number")
 
-if(num % 2  == 0){
-    alert("Your number is even.")
-}  else{
-   alert("Your number is odd.")  
+// if(num % 2  == 0){
+//     alert("Your number is even.")
+// }  else{
+//    alert("Your number is odd.")  
+// }
+
+
+
+
+
+// let traffic_signal = prompt("which colour have you seen ?")
+
+// if (traffic_signal == "red") {
+// alert("stop")
+// }
+// else if(traffic_signal == "yellow"){
+// alert("get ready")
+// }
+// else if(traffic_signal == "green") {
+// alert("go")
+// }
+// else{
+//   alert("invalid signal")
+// }
+
+
+// let marks = +prompt("enter your marks")
+
+// if (marks >= 90) {
+//     alert("A+")
+// }
+// else if (marks >= 80) {
+//     alert("A")
+// }
+// else if (marks >= 70) {
+//     alert("B")
+// }
+// else if (marks >= 60) {
+//     alert("C")
+// }
+// else if (marks >= 50) {
+//     alert("D")
+// }
+// else {
+//     alert("Fail")
+// }
+
+
+
+let user_name = prompt("your username");
+let password = +prompt("your password");
+
+
+
+if (user_name === "admin") {
+    if (password === 1234) {
+        alert("login successful")
+    }
+    else {
+        alert("wrong password")
+    }
 }
-
-
-
-
-
-let num2 = 46
-
-
-
-
-
-
-
-
-
-
+else{
+    alert("invalid username")
+}

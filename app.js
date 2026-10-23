@@ -1,329 +1,329 @@
 
-// legal variables 
+// // legal variables 
 
-// studentName = "sara"
-// student_name =  "fatima"
-// student$name = " saad"
-// student123 = " ali"
-// StudentName = "hamza"        
+// // studentName = "sara"
+// // student_name =  "fatima"
+// // student$name = " saad"
+// // student123 = " ali"
+// // StudentName = "hamza"        
 
-// console.log(studentName);
-// console.log(student_name);
-// console.log(student$name);
-// console.log(student123);
-// console.log(StudentName);
-
-
-// illegal variables 
-
-// student name = ""
-// 123student = ""
-// student-name = ""
-// student@name = ""
-// if = ""
+// // console.log(studentName);
+// // console.log(student_name);
+// // console.log(student$name);
+// // console.log(student123);
+// // console.log(StudentName);
 
 
+// // illegal variables 
 
-// declare without value 
-//  var home;
-//  console.log(home);
+// // student name = ""
+// // 123student = ""
+// // student-name = ""
+// // student@name = ""
+// // if = ""
 
 
 
-
-// // variable redeclare
-
-//  var group = "saad"
-//  console.log(group) ;
-
-
-
-//  var group = "zuraiz"
-//  console.log(group);
+// // declare without value 
+// //  var home;
+// //  console.log(home);
 
 
 
 
-// // home = "sweethome"
-// console.log(home);
+// // // variable redeclare
+
+// //  var group = "saad"
+// //  console.log(group) ;
 
 
+
+// //  var group = "zuraiz"
+// //  console.log(group);
+
+
+
+
+// // // home = "sweethome"
+// // console.log(home);
+
+
+
+
+// // // reassign
+// //  var age = "20"
+// //  console.log(age);
+
+
+// //  age = "25"
+// //  console.log(age);
+
+
+
+
+
+
+
+
+// // let 
+
+// // let home10;
+// // console.log(home10);
 
 
 // // reassign
-//  var age = "20"
-//  console.log(age);
+// // let car = "tesla"/
+// // console.log(car);
 
+// // car = "bmw"
+// // console.log(car);
 
-//  age = "25"
-//  console.log(age);
 
 
 
+// // home10 = "homesweethome"
+// // console.log(home10)
 
+// // redeclare
+// // let home10 = "cleanhome" error      value redeclare
 
 
 
 
-// let 
 
-// let home10;
-// console.log(home10);
+// // const 
 
+// // const birth_year = 2005
+// // console.log(birth_year);
 
-// reassign
-// let car = "tesla"/
-// console.log(car);
+// // reassign
+// // birth_year = 2006
+// // console.log( birth_year);
 
-// car = "bmw"
-// console.log(car);
 
 
+// // redeclare
+// // const birth_year = 2008
+// // console.log(birth_year);
 
 
-// home10 = "homesweethome"
-// console.log(home10)
+// // declare without value ;
+// // const home22;
+// // console.log(home22);
 
-// redeclare
-// let home10 = "cleanhome" error      value redeclare
 
 
 
 
 
-// const 
 
-// const birth_year = 2005
-// console.log(birth_year);
 
-// reassign
-// birth_year = 2006
-// console.log( birth_year);
+// // string 
+// // let studentName = "sarim"
+// // console.log(studentName);
+// // console.log(typeof(studentName));
 
 
 
-// redeclare
-// const birth_year = 2008
-// console.log(birth_year);
 
+// // Numbers 
 
-// declare without value ;
-// const home22;
-// console.log(home22);
+// // let age = 20
+// // console.log(age);
+// // console.log(typeof(age));
 
 
 
+// // boolean 
+// // let isMarried = false
+// // console.log(isMarried);
+// // console.log(typeof(isMarried));
 
 
 
+// // undefined 
+// // let home;
+// // console.log(home);
+// // console.log(typeof(home));
 
 
-// string 
-// let studentName = "sarim"
-// console.log(studentName);
-// console.log(typeof(studentName));
 
 
+// // null 
+// // let roll_no = null
+// // console.log(roll_no);
+// // console.log(typeof(roll_no));
 
 
-// Numbers 
 
-// let age = 20
-// console.log(age);
-// console.log(typeof(age));
 
 
 
-// boolean 
-// let isMarried = false
-// console.log(isMarried);
-// console.log(typeof(isMarried));
 
 
+// // assignment 1 
 
-// undefined 
-// let home;
-// console.log(home);
-// console.log(typeof(home));
+// // ques 1
+// // alert("Welcome to Java Script") 
 
+// // // ques 2 
+// // alert("Error!  Please enter a valid Password")
 
+// // // ques 3 
+// // alert("Welcome to JS land... \n  Happy Coding!")
 
 
-// null 
-// let roll_no = null
-// console.log(roll_no);
-// console.log(typeof(roll_no));
 
 
 
 
 
 
+// // string index 
+// // let name = "zuraiz"
+// // console.log(name[5])
 
 
-// assignment 1 
+// // // string length 
+// // console.log(name.length)
 
-// ques 1
-// alert("Welcome to Java Script") 
 
-// // ques 2 
-// alert("Error!  Please enter a valid Password")
 
-// // ques 3 
-// alert("Welcome to JS land... \n  Happy Coding!")
+// // // string index through lenght 
 
+// // console.log(name[name.length - 1]);
 
 
+// // console.log(name[name.length])
 
 
 
+// // string methods 
 
+// // uppercase 
+// // let name = "taabir"
+// // console.log(name)
 
-// string index 
-// let name = "zuraiz"
-// console.log(name[5])
+// // let uppercase = name.toUpperCase()
 
 
-// // string length 
-// console.log(name.length)
 
+// // console.log(name.toUpperCase());
 
 
-// // string index through lenght 
+// // console.log(uppercase)
 
-// console.log(name[name.length - 1]);
 
+// // // lowercase 
+// // let fullname = "ZURAIZ"
+// // console.log(fullname.toLowerCase());
 
-// console.log(name[name.length])
+// // // includes 
+// // console.log(fullname.includes("R"))
+// // console.log(fullname.includes("J"))
 
+// // // includeof 
+// // let message = "javascript is a front end language"
 
 
-// string methods 
 
-// uppercase 
-// let name = "taabir"
-// console.log(name)
 
-// let uppercase = name.toUpperCase()
+// // console.log(message.indexOf("front"))
 
+// // console.log(message.indexOf("python"))
+// // // pyhton does not exist so ans will be -1 
 
 
-// console.log(name.toUpperCase());
 
+// // // slice 
+// // console.log(message.slice(4, 10))
 
-// console.log(uppercase)
+// // console.log(message.slice(26, 34))
 
 
-// // lowercase 
-// let fullname = "ZURAIZ"
-// console.log(fullname.toLowerCase());
+// // // replace 
 
-// // includes 
-// console.log(fullname.includes("R"))
-// console.log(fullname.includes("J"))
+// // console.log(message);
 
-// // includeof 
-// let message = "javascript is a front end language"
 
+// // let text1 = message.replace("javascript", "python")
+// // console.log(text1);
 
 
 
-// console.log(message.indexOf("front"))
+// // let text2 = text1.replace("front", "back")
+// // console.log(text2);
 
-// console.log(message.indexOf("python"))
-// // pyhton does not exist so ans will be -1 
 
+// // trim 
+// // let home = "    hello world    "
+// // console.log(home.trim());
 
 
-// // slice 
-// console.log(message.slice(4, 10))
+// // // strats with  
+// // let text1 = "hello this is javascript"
+// // console.log(text1.startsWith("hello"));
+// // // true 
 
-// console.log(message.slice(26, 34))
 
+// // // ends with 
+// // console.log(text1.endsWith("language"));
 
-// // replace 
 
-// console.log(message);
 
+// // // repeat 
+// // let text2 = "hello "
+// // console.log(text2.repeat(10));
 
-// let text1 = message.replace("javascript", "python")
-// console.log(text1);
 
+// // // split 
+// // text3 = "I,love,pakistan"
+// // console.log(text3.split(","));
 
+// // numbers data type 
+// // arithmetic operators 
 
-// let text2 = text1.replace("front", "back")
-// console.log(text2);
+// // addition 
+// let num1 = 10
+// let num2 = 20
+// let result = num1 + num2
+// console.log(result);
 
 
-// trim 
-// let home = "    hello world    "
-// console.log(home.trim());
+// // subtraction 
+// let num3 = 10
+// let num4 = 20
+// let result1 = num3 - num4
+// console.log(result1);
 
 
-// // strats with  
-// let text1 = "hello this is javascript"
-// console.log(text1.startsWith("hello"));
-// // true 
+// // division 
+// let num5 = 10
+// let num6 = 20
+// let result2 = num5 / num6
+// console.log(result2);
 
 
-// // ends with 
-// console.log(text1.endsWith("language"));
+// // multiplication 
+// let num7 = 10
+// let num8 = 20
+// let result3 = num7 * num8
+// console.log(result3);
 
 
 
-// // repeat 
-// let text2 = "hello "
-// console.log(text2.repeat(10));
+// // modulas (remainder 
+// let num9 = 10
+// let num10 = 20
+// let result4 = num9 % num10
+// console.log(result4);
 
 
-// // split 
-// text3 = "I,love,pakistan"
-// console.log(text3.split(","));
 
-// numbers data type 
-// arithmetic operators 
+// // exponent 
 
-// addition 
-let num1 = 10
-let num2 = 20
-let result = num1 + num2
-console.log(result);
-
-
-// subtraction 
-let num3 = 10
-let num4 = 20
-let result1 = num3 - num4
-console.log(result1);
-
-
-// division 
-let num5 = 10
-let num6 = 20
-let result2 = num5 / num6
-console.log(result2);
-
-
-// multiplication 
-let num7 = 10
-let num8 = 20
-let result3 = num7 * num8
-console.log(result3);
-
-
-
-// modulas (remainder 
-let num9 = 10
-let num10 = 20
-let result4 = num9 % num10
-console.log(result4);
-
-
-
-// exponent 
-
-let num11 = 10
-let num12 = 20
-let result5 = num11 ** num12
-console.log(result5);
+// let num11 = 10
+// let num12 = 20
+// let result5 = num11 ** num12
+// console.log(result5);
 
