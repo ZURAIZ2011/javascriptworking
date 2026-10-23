@@ -196,19 +196,45 @@
 
 
 
-let user_name = prompt("your username");
-let password = +prompt("your password");
+// let user_name = prompt("your username");
+// let password = +prompt("your password");
 
 
 
-if (user_name === "admin") {
-    if (password === 1234) {
-        alert("login successful")
-    }
-    else {
-        alert("wrong password")
-    }
+// if (user_name === "admin") {
+//     if (password === 1234) {
+//         alert("login successful")
+//     }
+//     else {
+//         alert("wrong password")
+//     }
+// }
+// else{
+//     alert("invalid username")
+// }
+
+
+
+let pin = +prompt("Enter your pin")
+let balance = 500000
+let withdraw = +prompt("Enter your withdraw amount")
+
+
+if(pin === 1234){
+
+ document.write(`remaining balance = ${balance - withdraw}`) 
+
+ if(withdraw <= balance){
+    alert("Transaction successful")
+
+ }
+ else{
+    alert("insufficient balance")
+ }
+
 }
 else{
-    alert("invalid username")
+    alert("incorrect pin")
 }
+
+
