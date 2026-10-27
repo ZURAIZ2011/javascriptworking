@@ -215,26 +215,58 @@
 
 
 
-let pin = +prompt("Enter your pin")
-let balance = 500000
-let withdraw = +prompt("Enter your withdraw amount")
+// let pin = +prompt("Enter your pin")
+// let balance = 500000
+// let withdraw = +prompt("Enter your withdraw amount")
 
 
-if(pin === 1234){
+// if(pin === 1234){
 
- document.write(`remaining balance = ${balance - withdraw}`) 
+//  document.write(`remaining balance = ${balance - withdraw}`) 
 
- if(withdraw <= balance){
-    alert("Transaction successful")
+//  if(withdraw <= balance){
+//     alert("Transaction successful")
 
- }
- else{
-    alert("insufficient balance")
- }
+//  }
+//  else{
+//     alert("insufficient balance")
+//  }
 
-}
-else{
-    alert("incorrect pin")
-}
+// }
+// else{
+//     alert("incorrect pin")
+// }
+
+
+
+
+
+// array 
+
+let student = ["ali" , "usman" , "ahmed " , "babar" , "abrar" , "hamza " ,"khan " , "sajid" , "rizwan" , "shaheen" ] 
+console.log(student);
+
+console.log(student[3]);
+
+console.log(student[8]);
+
+console.log(student[10]);
+
+
+
+student[7] = "haris"
+console.log(student);
+
+
+
+console.log(student.length);
+
+
+// index through length 
+console.log(student[student.length - 1]);
+
+
+
+
 
 
