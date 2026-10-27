@@ -241,32 +241,51 @@
 
 
 
-// array 
+// // array 
 
-let student = ["ali" , "usman" , "ahmed " , "babar" , "abrar" , "hamza " ,"khan " , "sajid" , "rizwan" , "shaheen" ] 
-console.log(student);
+// let student = ["ali" , "usman" , "ahmed " , "babar" , "abrar" , "hamza " ,"khan " , "sajid" , "rizwan" , "shaheen" ] 
+// console.log(student);
 
-console.log(student[3]);
+// console.log(student[3]);
 
-console.log(student[8]);
+// console.log(student[8]);
 
-console.log(student[10]);
-
-
-
-student[7] = "haris"
-console.log(student);
+// console.log(student[10]);
 
 
 
-console.log(student.length);
-
-
-// index through length 
-console.log(student[student.length - 1]);
+// student[7] = "haris"
+// console.log(student);
 
 
 
+// console.log(student.length);
+
+
+// // index through length 
+// console.log(student[student.length - 1]);
+
+
+// student.length = 0
+// console.log(student.length);
+
+
+
+
+let nested = [ "box1" , ["box2" , ["box2.0" , "box2.2" , "box2.3"] , "box 2 sis" , "box 2 bro"]   , "box3" ,    ["box4" , 4 , 4.4]   ,  "box5"     ]
+
+console.log(nested);
+
+
+console.log(nested[4]);
+console.log(nested[3]);
+
+
+
+console.log(nested[1][2]);
+
+
+console.log(nested[1][1][nested.length - 1]);
 
 
 
