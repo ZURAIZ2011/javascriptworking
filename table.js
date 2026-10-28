@@ -323,6 +323,8 @@
 
 // Final updated array print karo.
 
+// sare employees ki slary nikal kr print karwao
+
 // Example structure:
 
 
@@ -353,3 +355,12 @@ console.log(employe.length);
 console.log(employe);
 
 
+console.log(  employe[0][1] + employe[1][1] + employe[2][1]+  employe[3][1]);
+
+
+
+
+let total_amount = employe[0][1] + employe[1][1] + employe[2][1]+  employe[3][1]
+
+
+console.log( `total amount spended on emploees this month is ${total_amount}`);
