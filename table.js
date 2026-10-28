@@ -294,3 +294,62 @@
 
 
 
+
+
+
+
+
+// practise   
+
+
+// Q15. Final challenge 🏆
+// Ek employees naam ka nested array banao:
+
+// Har employee ka name aur salary store ho.
+
+// Kam az kam 4 employees hon.
+
+
+
+// Second employee ka name print karo.
+
+// Third employee ki salary print karo.
+
+// First employee ki salary replace karo.
+
+// Fourth employee ka name replace karo.
+
+// Outer array ki length print karo.
+
+// Final updated array print karo.
+
+// Example structure:
+
+
+// javascript
+// let employees = [
+//   ["Ali", 30000],
+//   ["Sara", 40000],
+//   ["Ahmed", 35000],
+//   ["Zara", 45000]
+// ];
+
+
+
+let employe = [  ["Ali", 30000],  ["Sara", 40000],   ["Ahmed", 35000],   ["Zara", 45000]   ]
+
+
+
+console.log(employe[1][0]);
+console.log(employe[2][1]);
+
+
+employe[0][1] = 70000
+
+employe[3][0] = "Faiza"
+
+console.log(employe.length);
+
+console.log(employe);
+
+
