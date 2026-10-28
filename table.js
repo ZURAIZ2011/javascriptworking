@@ -272,20 +272,25 @@
 
 
 
-let nested = [ "box1" , ["box2" , ["box2.0" , "box2.2" , "box2.3"] , "box 2 sis" , "box 2 bro"]   , "box3" ,    ["box4" , 4 , 4.4]   ,  "box5"     ]
-
-console.log(nested);
-
-
-console.log(nested[4]);
-console.log(nested[3]);
+// let nested = [ "box1" , ["box2" , ["box2.0" , "box2.1" , "box2.2"] , "box 2 sis" , "box 2 bro"]   , "box3" ,    ["box4" , 4 , 4.4]   ,  "box5"     ]
+// let nested1
+// console.log(nested);
 
 
+// console.log(nested[4]);
+// console.log(nested[3]);
 
-console.log(nested[1][2]);
 
 
-console.log(nested[1][1][nested.length - 1]);
+// console.log(nested[1][2]);
+
+
+// console.log(nested[1][1][0]);
+
+
+
+
+
 
 
 
