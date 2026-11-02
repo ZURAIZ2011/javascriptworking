@@ -295,11 +295,7 @@
 
 
 
-
-
-
-
-// practise   
+// practise   question
 
 
 // Q15. Final challenge 🏆
@@ -364,3 +360,35 @@
 
 
 // console.log( `total amount spended on employes this month is ${total_amount}`);
+
+
+
+
+// // methods of array 
+
+
+// // push   : add krna last mai
+// let name = ["ali" , "sara" , "hamza"]
+// console.log(name.push("yasir"));
+// console.log(name);
+
+
+// // pop   : to remove
+
+// let name1 = ["ali" , "sara" , "hamza" , "yasir"]
+// console.log(name.pop("yasir"));
+// console.log(name1);
+
+// // unshift   :  start mai add krna
+// let fruit = ["apple" , "banana" , "orange"]
+// fruit.unshift(grapes)
+
+
+
+
+
+// loops 
+
+for(let i = 1 ; i<= 100 ; i++){
+    console.log(i);
+}
