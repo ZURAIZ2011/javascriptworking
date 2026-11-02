@@ -338,29 +338,29 @@
 
 
 
-let employe = [  ["Ali", 30000],  ["Sara", 40000],   ["Ahmed", 35000],   ["Zara", 45000]   ]
+// let employe = [  ["Ali", 30000],  ["Sara", 40000],   ["Ahmed", 35000],   ["Zara", 45000]   ]
 
 
 
-console.log(employe[1][0]);
-console.log(employe[2][1]);
+// console.log(employe[1][0]);
+// console.log(employe[2][1]);
 
 
-employe[0][1] = 70000
+// employe[0][1] = 70000
 
-employe[3][0] = "Faiza"
+// employe[3][0] = "Faiza"
 
-console.log(employe.length);
+// console.log(employe.length);
 
-console.log(employe);
-
-
-console.log(  employe[0][1] + employe[1][1] + employe[2][1]+  employe[3][1]);
+// console.log(employe);
 
 
+// console.log(  employe[0][1] + employe[1][1] + employe[2][1]+  employe[3][1]);
 
 
-let total_amount = employe[0][1] + employe[1][1] + employe[2][1]+  employe[3][1]
 
 
-console.log( `total amount spended on emploees this month is ${total_amount}`);
+// let total_amount = employe[0][1] + employe[1][1] + employe[2][1]+  employe[3][1]
+
+
+// console.log( `total amount spended on employes this month is ${total_amount}`);
