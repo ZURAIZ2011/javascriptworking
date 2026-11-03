@@ -387,8 +387,17 @@
 
 
 
-// loops 
+// // loops 
 
-for(let i = 1 ; i<= 100 ; i++){
+// for(let i = 1 ; i<= 100 ; i++){
+//     // console.log(i);
+//     document.write(i )
+//     
+// }
+
+
+
+for(let i = 100; i>=1 ; i--){
     console.log(i);
+    
 }
