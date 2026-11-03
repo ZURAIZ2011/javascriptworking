@@ -397,7 +397,19 @@
 
 
 
-for(let i = 100; i>=1 ; i--){
-    console.log(i);
+// for(let i = 100; i>=1 ; i--){
+//     console.log(i);
     
-}
+// }
+
+// let fruit = ["apple" , "mango" , "orange" , "grapes", "papaya"]
+
+// for(let i = 0 ; i<fruit.length ; i++){
+//     console.log(fruit[i]);
+    
+// }
+
+// for(let i = fruit.length -1 ; i>=0 ; i--){
+//     console.log(fruit[i]);
+    
+// }
