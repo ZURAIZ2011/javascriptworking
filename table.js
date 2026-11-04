@@ -399,24 +399,58 @@
 
 // for(let i = 100; i>=1 ; i--){
 //     console.log(i);
-    
+
 // }
+
+
+
+
 
 // let fruit = ["apple" , "mango" , "orange" , "grapes", "papaya"]
 
 // for(let i = 0 ; i<fruit.length ; i++){
 //     console.log(fruit[i]);
-    
+
 // }
 
 // for(let i = fruit.length -1 ; i>=0 ; i--){
 //     console.log(fruit[i]);
-    
+
 // }
 
-let num = 4
+// let num = 4
 
-for(let i = 1 ; i<=10 ; i++){
-    console.log(`${num} x ${i} = ${num*i}`);
-    
+// for(let i = 1 ; i <= 10 ; i++){
+//     console.log(`${num} x ${i} = ${num*i}`);
+
+// }
+
+
+
+
+
+let car = {
+    name: "mustang",
+    brand: "lamborghini",
+    year_launched: 2026
 }
+console.log(car);
+
+
+car.colour = "grey"
+car.speed = "250 miles per hour"
+
+car.year_launched= 2025
+
+
+console.log(car.brand);
+console.log(car["name"]);
+
+delete car.colour;
+
+
+car.user= ["zuckerburg" , "anas ali" , "virat kohli" , "mr.beast"]
+console.log(car.user[1]);
+
+console.log(car);
+
