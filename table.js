@@ -432,12 +432,18 @@
 let car = {
     name: "mustang",
     brand: "lamborghini",
-    year_launched: 2026
+    year_launched: 2026 ,
+    colour:{
+        dark: "black " ,
+        light: "yellow" ,
+        natural: ["blue" , "white" , "green"]
+    }
+    
 }
 console.log(car);
 
 
-car.colour = "grey"
+
 car.speed = "250 miles per hour"
 
 car.year_launched= 2025
@@ -446,11 +452,21 @@ car.year_launched= 2025
 console.log(car.brand);
 console.log(car["name"]);
 
-delete car.colour;
+
 
 
 car.user= ["zuckerburg" , "anas ali" , "virat kohli" , "mr.beast"]
 console.log(car.user[1]);
 
 console.log(car);
+
+
+console.log(car.colour.dark);
+console.log(car.colour["light"]);
+
+console.log(car.colour.natural);
+
+
+
+
 
