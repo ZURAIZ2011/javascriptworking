@@ -514,11 +514,11 @@
 // console.log(student);
 
 
-let cart = [
-    { name: "Shirt", price: 2000, quantity: 2 },
-    { name: "Shoes", price: 5000, quantity: 1 },
-    { name: "Watch", price: 3000, quantity: 2 }
-];
+// let cart = [
+//     { name: "Shirt", price: 2000, quantity: 2 },
+//     { name: "Shoes", price: 5000, quantity: 1 },
+//     { name: "Watch", price: 3000, quantity: 2 }
+// ];
 
 
 // Tasks:
@@ -528,30 +528,73 @@ let cart = [
 // 4. Agar total bill 10000 se zyada ho to "Discount Available" print karein.
 // 5. Otherwise "No Discount" print karein.
 
-let total ;
-let total_bill = 0;
+// let total ;
+// let total_bill = 0;
 
-for( let i=0;i<= cart.length - 1 ;i++){
-  total = cart[i].price * cart[i].quantity
-  console.log(total);
+// for( let i=0;i<= cart.length - 1 ;i++){
+//   total = cart[i].price * cart[i].quantity
+//   console.log(total);
   
 
-total_bill = total_bill + total
+// total_bill = total_bill + total
 
   
-}
+// }
 
-console.log(total_bill);
-
-
+// console.log(total_bill);
 
 
-if(total_bill >= 10000){
-  console.log("Discount Available");
+
+
+// if(total_bill >= 10000){
+//   console.log("Discount Available");
   
-}else{
-    console.log("No Discount");
+// }else{
+//     console.log("No Discount");
     
-}
+// }
  
 
+
+let students = [
+    { name: "Ali", marks: 85 },
+    { name: "Ahmed", marks: 45 },
+    { name: "Sara", marks: 72 },
+    { name: "Ayesha", marks: 30 },
+    { name: "Usman", marks: 90 }
+];
+
+// Tasks:
+
+// for loop use karke har student ka name aur marks print karein.
+
+// Agar marks 50 ya us se zyada hon to "Pass" print karein.
+
+// Otherwise "Fail" print karein.
+
+// Total passed students count karein
+
+// Total failed students count karein.
+
+
+let pass = 0
+let fail = 0
+
+for(let i = 0; i <= 4;i++){
+  data =  students[i].name + "     " + students[i].marks
+   console.log(data);
+   
+   if(students[i].marks >= 50){
+console.log("Pass");
+  pass++
+
+   }else{
+    console.log("Fail");
+    fail++
+   }
+
+  
+}
+console.log(pass);
+
+console.log(fail);
