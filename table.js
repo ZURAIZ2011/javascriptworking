@@ -429,44 +429,129 @@
 
 
 
-let car = {
-    name: "mustang",
-    brand: "lamborghini",
-    year_launched: 2026 ,
-    colour:{
-        dark: "black " ,
-        light: "yellow" ,
-        natural: ["blue" , "white" , "green"]
-    }
+// let car = {
+//     name: "mustang",
+//     brand: "lamborghini",
+//     year_launched: 2026 ,
+//     colour:{
+//         dark: "black " ,
+//         light: "yellow" ,
+//         natural: ["blue" , "white" , "green"]
+//     }
+
+// }
+// console.log(car);
+// car.speed = "250 miles per hour"
+
+// car.year_launched= 2025
+
+
+// console.log(car.brand);
+// console.log(car["name"]);
+
+// car.user= ["zuckerburg" , "anas ali" , "virat kohli" , "mr.beast"]
+// console.log(car.user[1]);
+
+// console.log(car);
+
+
+// console.log(car.colour.dark);
+// console.log(car.colour["light"]);
+
+// console.log(car.colour.natural);
+
+
+// let student = [
+//     {
+//         name: "ali",
+//         age: 20,
+//         city: "karachi"
+//     },
+
+//     {
+//         name: "eman",
+//         age: 21,
+//         city: "multan"
+//     },
+
+//     {
+//         name: "asad",
+//         age: 23,
+//         city: "lahore"
+//     }  ,
+//     {
+//         name: "yasir"  ,
+//              age:15  ,
+//              city:"peshawar"
+//     }
+
+// ]
+
+// console.log(student);
+
+// console.log(Object.keys(student[1]));
+
+
+// console.log(Object.entries(student[3]));
+
+// student[2].name = "hamza"
+// console.log(student);
+
+
+// student.push({
+//     name: "abbas"  ,
+//              age:26  ,
+//              city:"hyderabad"
+// })
+
+
+// student.unshift({
+//     name: "samad"  ,
+//              age:29 ,
+//              city:"quetta"
+// })
+
+// console.log(student);
+
+
+let cart = [
+    { name: "Shirt", price: 2000, quantity: 2 },
+    { name: "Shoes", price: 5000, quantity: 1 },
+    { name: "Watch", price: 3000, quantity: 2 }
+];
+
+
+// Tasks:
+// 1. Loop use karke har product ka total calculate karein.
+// 2. Total = price × quantity.
+// 3. Complete shopping bill calculate karein.
+// 4. Agar total bill 10000 se zyada ho to "Discount Available" print karein.
+// 5. Otherwise "No Discount" print karein.
+
+let total ;
+let total_bill = 0;
+
+for( let i=0;i<= cart.length - 1 ;i++){
+  total = cart[i].price * cart[i].quantity
+  console.log(total);
+  
+
+total_bill = total_bill + total
+
+  
+}
+
+console.log(total_bill);
+
+
+
+
+if(total_bill >= 10000){
+  console.log("Discount Available");
+  
+}else{
+    console.log("No Discount");
     
 }
-console.log(car);
-
-
-
-car.speed = "250 miles per hour"
-
-car.year_launched= 2025
-
-
-console.log(car.brand);
-console.log(car["name"]);
-
-
-
-
-car.user= ["zuckerburg" , "anas ali" , "virat kohli" , "mr.beast"]
-console.log(car.user[1]);
-
-console.log(car);
-
-
-console.log(car.colour.dark);
-console.log(car.colour["light"]);
-
-console.log(car.colour.natural);
-
-
-
-
+ 
 
