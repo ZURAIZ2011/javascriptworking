@@ -556,13 +556,13 @@
  
 
 
-let students = [
-    { name: "Ali", marks: 85 },
-    { name: "Ahmed", marks: 45 },
-    { name: "Sara", marks: 72 },
-    { name: "Ayesha", marks: 30 },
-    { name: "Usman", marks: 90 }
-];
+// let students = [
+//     { name: "Ali", marks: 85 },
+//     { name: "Ahmed", marks: 45 },
+//     { name: "Sara", marks: 72 },
+//     { name: "Ayesha", marks: 30 },
+//     { name: "Usman", marks: 90 }
+// ];
 
 // Tasks:
 
@@ -577,24 +577,102 @@ let students = [
 // Total failed students count karein.
 
 
-let pass = 0
-let fail = 0
+// let pass = 0
+// let fail = 0
 
-for(let i = 0; i <= 4;i++){
-  data =  students[i].name + "     " + students[i].marks
-   console.log(data);
+// for(let i = 0; i <= 4;i++){
+//   data =  students[i].name + "     " + students[i].marks
+//    console.log(data);
    
-   if(students[i].marks >= 50){
-console.log("Pass");
-  pass++
+//    if(students[i].marks >= 50){
+// console.log("Pass");
+//   pass++
 
-   }else{
-    console.log("Fail");
-    fail++
-   }
+//    }else{
+//     console.log("Fail");
+//     fail++
+//    }
 
   
-}
-console.log(pass);
+// }
+// console.log(pass);
 
-console.log(fail);
+// console.log(fail);
+
+
+
+
+
+
+
+
+// let employees = [
+//     { name: "Ali", salary: 30000 },
+//     { name: "Ahmed", salary: 45000 },
+//     { name: "Sara", salary: 60000 },
+//     { name: "Ayesha", salary: 25000 }
+// ];
+
+// Tasks:
+
+// Loop use karke har employee ki salary print karein.
+
+// Agar salary 40000 se zyada ho to "High Salary" print karein.
+
+// Otherwise "Normal Salary" print karein.
+
+// Sab employees ki total salary calculate karein.
+
+// 40000 se zyada salary lene wale employees count karein.
+
+
+// for(let i = 0 ; i >= employees.length -1 ; i++ ){
+  
+//           console.log(employees[i].salary);
+          
+// }
+
+
+
+
+// for ___ in  loop 
+
+// on  object 
+
+let student = {
+  name : "ali" ,
+  age : 10 ,
+  city : "karachi"
+}
+
+for(let key in student){
+  console.log(`${key} : ${student[key]}`);
+  
+}
+
+
+
+// array of object 
+let student4 = [
+  { 
+    name : "ali" ,
+    age : 10  ,
+    city : "karachi"
+  }  , 
+  {
+    name : "ahmed" ,
+    age : 14  ,
+    city : "lahore"
+  }  ,
+  {
+    name : "sara" ,
+    age : 20  ,
+    city : "multan"
+  }
+]
+
+for(let index in student4){
+
+  console.log(student4[index].name);
+  
+}
