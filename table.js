@@ -650,6 +650,18 @@ for(let key in student){
   
 }
 
+// array 
+let students = ["orange" , "apple" , "grapes"]
+
+for(let index in students){
+  console.log(students[index]);
+  
+}
+
+
+
+
+
 
 
 // array of object 
