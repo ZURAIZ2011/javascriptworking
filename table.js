@@ -606,32 +606,6 @@
 
 
 
-// let employees = [
-//     { name: "Ali", salary: 30000 },
-//     { name: "Ahmed", salary: 45000 },
-//     { name: "Sara", salary: 60000 },
-//     { name: "Ayesha", salary: 25000 }
-// ];
-
-// Tasks:
-
-// Loop use karke har employee ki salary print karein.
-
-// Agar salary 40000 se zyada ho to "High Salary" print karein.
-
-// Otherwise "Normal Salary" print karein.
-
-// Sab employees ki total salary calculate karein.
-
-// 40000 se zyada salary lene wale employees count karein.
-
-
-// for(let i = 0 ; i >= employees.length -1 ; i++ ){
-  
-//           console.log(employees[i].salary);
-          
-// }
-
 
 
 
@@ -639,52 +613,66 @@
 
 // on  object 
 
-let student = {
-  name : "ali" ,
-  age : 10 ,
-  city : "karachi"
-}
+// let student = {
+//   name : "ali" ,
+//   age : 10 ,
+//   city : "karachi"
+// }
 
-for(let key in student){
-  console.log(`${key} : ${student[key]}`);
+// for(let key in student){
+//   console.log(`${key} : ${student[key]}`);
+  
+// }
+
+// // array 
+// let students = ["orange" , "apple" , "grapes"]
+
+// for(let index in students){
+//   console.log(students[index]);
+  
+// }
+
+
+
+
+
+
+
+// // array of object 
+// let student4 = [
+//   { 
+//     name : "ali" ,
+//     age : 10  ,
+//     city : "karachi"
+//   }  , 
+//   {
+//     name : "ahmed" ,
+//     age : 14  ,
+//     city : "lahore"
+//   }  ,
+//   {
+//     name : "sara" ,
+//     age : 20  ,
+//     city : "multan"
+//   }
+// ]
+
+// for(let index in student4){
+
+//   console.log(student4[index].name);
+  
+// }
+
+
+
+
+function multiplication(){
+  let num1 = 5
+  let num2 = 5
+
+  console.log(`Ans is : ${num1 * num2}`);
   
 }
 
-// array 
-let students = ["orange" , "apple" , "grapes"]
 
-for(let index in students){
-  console.log(students[index]);
-  
-}
-
-
-
-
-
-
-
-// array of object 
-let student4 = [
-  { 
-    name : "ali" ,
-    age : 10  ,
-    city : "karachi"
-  }  , 
-  {
-    name : "ahmed" ,
-    age : 14  ,
-    city : "lahore"
-  }  ,
-  {
-    name : "sara" ,
-    age : 20  ,
-    city : "multan"
-  }
-]
-
-for(let index in student4){
-
-  console.log(student4[index].name);
-  
-}
+multiplication()
