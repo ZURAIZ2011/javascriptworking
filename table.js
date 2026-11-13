@@ -715,12 +715,35 @@
   
 // }
 
-
 // multiplication()
 
 
-function greet(){
-  console.log("hello students!");
+
+
+
+// function greet(a){
+//   console.log(`hello ${a} !!!`  );
   
+// }
+// greet("zuraiz")
+
+
+// greet("sara")
+
+
+
+
+
+function addition(a , b){
+       let result22 = a +b 
+      
+      
+       return result22
 }
-greet()
+
+
+console.log(addition(10,20));      
+
+let addition_result = addition(10,20)
+
+console.log(addition_result);
