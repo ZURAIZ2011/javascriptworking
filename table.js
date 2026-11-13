@@ -556,6 +556,8 @@
  
 
 
+// practise work 
+
 // let students = [
 //     { name: "Ali", marks: 85 },
 //     { name: "Ahmed", marks: 45 },
@@ -599,8 +601,47 @@
 
 // console.log(fail);
 
+// practise work 
+
+// let employees = [
+//     { name: "Ali", salary: 30000 },
+//     { name: "Ahmed", salary: 45000 },
+//     { name: "Sara", salary: 60000 },
+//     { name: "Ayesha", salary: 25000 }
+// ];
+// Tasks:
+
+// Loop use karke har employee ki salary print karein.
+
+// Agar salary 40000 se zyada ho to "High Salary" print karein.
+
+// Otherwise "Normal Salary" print karein.
+
+// Sab employees ki total salary calculate karein.
+
+// 40000 se zyada salary lene wale employees count karein.
 
 
+
+// let total_salary = 0;
+// let high_salary = 0;
+
+// for (let i = 0; i <= employees.length -1; i++){
+//           console.log(employees[i].salary);
+
+//           if(employees[i].salary > 40000){
+//           console.log("high salary");
+//              high_salary++
+//           }else{
+//             console.log("normal salary");
+            
+//           }
+//           total_salary = total_salary + employees[i].salary
+// }
+
+// console.log(total_salary);
+
+// console.log(high_salary);
 
 
 
@@ -664,15 +705,22 @@
 // }
 
 
+// function (data type )  
+
+// function multiplication(){
+//   let num1 = 5
+//   let num2 = 5
+
+//   console.log(`Ans is : ${num1 * num2}`);
+  
+// }
 
 
-function multiplication(){
-  let num1 = 5
-  let num2 = 5
+// multiplication()
 
-  console.log(`Ans is : ${num1 * num2}`);
+
+function greet(){
+  console.log("hello students!");
   
 }
-
-
-multiplication()
+greet()
