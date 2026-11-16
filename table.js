@@ -534,11 +534,11 @@
 // for( let i=0;i<= cart.length - 1 ;i++){
 //   total = cart[i].price * cart[i].quantity
 //   console.log(total);
-  
+
 
 // total_bill = total_bill + total
 
-  
+
 // }
 
 // console.log(total_bill);
@@ -548,12 +548,12 @@
 
 // if(total_bill >= 10000){
 //   console.log("Discount Available");
-  
+
 // }else{
 //     console.log("No Discount");
-    
+
 // }
- 
+
 
 
 // practise work 
@@ -585,7 +585,7 @@
 // for(let i = 0; i <= 4;i++){
 //   data =  students[i].name + "     " + students[i].marks
 //    console.log(data);
-   
+
 //    if(students[i].marks >= 50){
 // console.log("Pass");
 //   pass++
@@ -595,7 +595,7 @@
 //     fail++
 //    }
 
-  
+
 // }
 // console.log(pass);
 
@@ -634,7 +634,7 @@
 //              high_salary++
 //           }else{
 //             console.log("normal salary");
-            
+
 //           }
 //           total_salary = total_salary + employees[i].salary
 // }
@@ -662,7 +662,7 @@
 
 // for(let key in student){
 //   console.log(`${key} : ${student[key]}`);
-  
+
 // }
 
 // // array 
@@ -670,7 +670,7 @@
 
 // for(let index in students){
 //   console.log(students[index]);
-  
+
 // }
 
 
@@ -701,18 +701,17 @@
 // for(let index in student4){
 
 //   console.log(student4[index].name);
-  
+
 // }
 
 
-// function (data type )  
 
 // function multiplication(){
 //   let num1 = 5
 //   let num2 = 5
 
 //   console.log(`Ans is : ${num1 * num2}`);
-  
+
 // }
 
 // multiplication()
@@ -723,7 +722,7 @@
 
 // function greet(a){
 //   console.log(`hello ${a} !!!`  );
-  
+
 // }
 // greet("zuraiz")
 
@@ -734,16 +733,145 @@
 
 
 
-function addition(a , b){
-       let result22 = a +b 
-      
-      
-       return result22
+// function addition(a , b){
+//        let result22 = a +b 
+
+
+//        return result22
+// }
+
+
+
+
+// let addition_result = addition(10,20)
+
+// console.log(addition_result);
+
+
+
+
+
+
+
+
+// assignment   
+let patients = [
+       {
+              name: "Ali",
+              age: 25,
+              disease: "Fever",
+              fee: 1000,
+              paid: true
+       },
+       {
+              name: "Sara",
+              age: 30,
+              disease: "Flu",
+              fee: 1500,
+              paid: false
+       },
+       {
+              name: "Ahmed",
+              age: 45,
+              disease: "Cough",
+              fee: 800,
+              paid: true
+       },
+       {
+              name: "Zain",
+              age: 55,
+              disease: "Headache",
+              fee: 1200,
+              paid: false
+       }
+];
+
+
+// Tasks
+
+// Task 1: Display All Patients
+
+// displayPatients() naam ka function banayein.
+
+// for loop use karke tamam patients ka record access karein.
+
+// Har patient ka name, age, disease aur fee display karein.
+
+// Agar paid ki value true ho to "Payment Completed" print karein.
+
+// Agar false ho to "Payment Pending" print karein.
+
+
+// Task 2: Search Patient
+
+// findPatient(name) naam ka function banayein.
+
+// Function patient ka name parameter mein receive kare.
+
+// for loop use karke patient ko search karein.
+
+// Agar patient mil jaye to uska name aur disease display karein.
+
+// Agar patient na mile to "Patient Not Found" print karein.
+
+
+
+// Task 3: Identify Senior Patients
+
+// checkSeniorPatients() naam ka function banayein.
+
+// for loop use karke tamam patients ki age check karein.
+
+// Agar patient ki age 40 ya us se zyada ho to "Senior Patient" print karein.
+
+// Agar age 40 se kam ho to "Regular Patient" print karein.
+
+// Patient ka name bhi display karein.
+
+
+function displayPatients() {
+       for (let i = 0; i <= patients.length - 1; i++) {
+
+              console.log(patients[i].name + " -" + patients[i].age + " -" + patients[i].disease + " -" + patients[i].fee);
+
+              if (patients[i].paid == true) {
+
+                     console.log("Payment Completed");
+
+
+              } else {
+                     console.log("Payment Pending");
+
+              }
+
+       }
+
 }
 
+displayPatients()
 
-console.log(addition(10,20));      
 
-let addition_result = addition(10,20)
+function findPatient(name) {
 
-console.log(addition_result);
+       for (let i = 0; i <= patients.length - 1; i++) {
+              
+
+              if (name == patients[i].name) {
+                     console.log("Patient : " + name + "    "  + "Disease :" +  patients[i].disease);
+
+              } else {
+                     console.log("Patient Not Found");
+
+              }
+
+       }
+}
+
+findPatient("Ahmed")
+findPatient("Sara")
+
+
+
+ function checkSeniorPatients(){
+
+ }
