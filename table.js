@@ -787,91 +787,82 @@ let patients = [
 ];
 
 
-// Tasks
-
-// Task 1: Display All Patients
-
-// displayPatients() naam ka function banayein.
-
-// for loop use karke tamam patients ka record access karein.
-
-// Har patient ka name, age, disease aur fee display karein.
-
-// Agar paid ki value true ho to "Payment Completed" print karein.
-
-// Agar false ho to "Payment Pending" print karein.
-
-
-// Task 2: Search Patient
-
-// findPatient(name) naam ka function banayein.
-
-// Function patient ka name parameter mein receive kare.
-
-// for loop use karke patient ko search karein.
-
-// Agar patient mil jaye to uska name aur disease display karein.
-
-// Agar patient na mile to "Patient Not Found" print karein.
 
 
 
-// Task 3: Identify Senior Patients
-
-// checkSeniorPatients() naam ka function banayein.
-
-// for loop use karke tamam patients ki age check karein.
-
-// Agar patient ki age 40 ya us se zyada ho to "Senior Patient" print karein.
-
-// Agar age 40 se kam ho to "Regular Patient" print karein.
-
-// Patient ka name bhi display karein.
 
 
-function displayPatients() {
-       for (let i = 0; i <= patients.length - 1; i++) {
-
-              console.log(patients[i].name + " -" + patients[i].age + " -" + patients[i].disease + " -" + patients[i].fee);
-
-              if (patients[i].paid == true) {
-
-                     console.log("Payment Completed");
 
 
-              } else {
-                     console.log("Payment Pending");
 
-              }
+// function displayPatients() {
+//        for (let i = 0; i <= patients.length - 1; i++) {
 
-       }
+//               console.log(patients[i].name + " -" + patients[i].age + " -" + patients[i].disease + " -" + patients[i].fee);
 
-}
+//               if (patients[i].paid == true) {
+
+//                      console.log("Payment Completed");
+
+
+//               } else {
+//                      console.log("Payment Pending");
+
+//               }
+
+//        }
+
+// }
 
 displayPatients()
 
 
-function findPatient(name) {
+// function findPatient(name) {
 
-       for (let i = 0; i <= patients.length - 1; i++) {
-              
-
-              if (name == patients[i].name) {
-                     console.log("Patient : " + name + "    "  + "Disease :" +  patients[i].disease);
-
-              } else {
-                     console.log("Patient Not Found");
-
-              }
-
-       }
-}
-
-findPatient("Ahmed")
-findPatient("Sara")
+//        for (let i = 0; i <= patients.length - 1; i++) {
 
 
+//               if (name == patients[i].name) {
+//                      console.log("Patient : " + name + "    " + "Disease :" + patients[i].disease);
 
- function checkSeniorPatients(){
+//               } else {
+//                      console.log("Patient Not Found");
 
- }
+//               }
+
+//        }
+// }
+
+// findPatient("Ahmed")
+// findPatient("Sara")
+
+
+
+
+
+// function checkSeniorPatients() {
+
+//        for (let i = 0; i <= patients.length - 1; i++) {
+//               if (patients[i].age >= 40) {
+//                      console.log("Senior Patient");
+//                      console.log("Name : " + patients[i].name);
+                     
+
+//               } else {
+//                 console.log("Regular patient");
+//                  console.log("Name : " + patients[i].name);
+//               }
+
+//        }
+// }
+
+// checkSeniorPatients()
+
+
+// function countPatients(){
+//    let  total_patients = patients.length;
+       
+//        return total_patients
+// }
+
+// console.log( countPatients());
