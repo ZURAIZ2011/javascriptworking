@@ -755,36 +755,36 @@
 
 
 // assignment   
-let patients = [
-       {
-              name: "Ali",
-              age: 25,
-              disease: "Fever",
-              fee: 1000,
-              paid: true
-       },
-       {
-              name: "Sara",
-              age: 30,
-              disease: "Flu",
-              fee: 1500,
-              paid: false
-       },
-       {
-              name: "Ahmed",
-              age: 45,
-              disease: "Cough",
-              fee: 800,
-              paid: true
-       },
-       {
-              name: "Zain",
-              age: 55,
-              disease: "Headache",
-              fee: 1200,
-              paid: false
-       }
-];
+// let patients = [
+//        {
+//               name: "Ali",
+//               age: 25,
+//               disease: "Fever",
+//               fee: 1000,
+//               paid: true
+//        },
+//        {
+//               name: "Sara",
+//               age: 30,
+//               disease: "Flu",
+//               fee: 1500,
+//               paid: false
+//        },
+//        {
+//               name: "Ahmed",
+//               age: 45,
+//               disease: "Cough",
+//               fee: 800,
+//               paid: true
+//        },
+//        {
+//               name: "Zain",
+//               age: 55,
+//               disease: "Headache",
+//               fee: 1200,
+//               paid: false
+//        }
+// ];
 
 
 
@@ -814,7 +814,7 @@ let patients = [
 
 // }
 
-displayPatients()
+// displayPatients()
 
 
 // function findPatient(name) {
@@ -846,7 +846,7 @@ displayPatients()
 //               if (patients[i].age >= 40) {
 //                      console.log("Senior Patient");
 //                      console.log("Name : " + patients[i].name);
-                     
+
 
 //               } else {
 //                 console.log("Regular patient");
@@ -861,8 +861,30 @@ displayPatients()
 
 // function countPatients(){
 //    let  total_patients = patients.length;
-       
+
 //        return total_patients
 // }
 
 // console.log( countPatients());
+
+
+
+
+
+let button = document.getElementById("btn")
+button.addEventListener("click", function () {
+       Swal.fire({
+  title: "You clicked the button !!!",
+  width: 600,
+  padding: "3em",
+  color: "#150e75",
+  background: "#fff url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaweRLMtiig_JpIr77NDLM719M31P6J4Agkpgf2z70-Q&s=10)",
+  backdrop: `
+    rgba(192, 194, 75, 0.4)
+    url("https://onlinegiftools.com/images/examples-onlinegiftools/dragunov.gif")
+    left top
+    no-repeat
+  `
+});
+})
+      
