@@ -871,20 +871,65 @@
 
 
 
-let button = document.getElementById("btn")
-button.addEventListener("click", function () {
-       Swal.fire({
-  title: "You clicked the button !!!",
+// let button = document.getElementById("btn")
+// button.addEventListener("click", function () {
+//        Swal.fire({
+//   title: "You clicked the button !!!",
+//   width: 600,
+//   padding: "3em",
+//   color: "#150e75",
+//   background: "#fff url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaweRLMtiig_JpIr77NDLM719M31P6J4Agkpgf2z70-Q&s=10)",
+//   backdrop: `
+//     rgba(192, 194, 75, 0.4)
+//     url("https://onlinegiftools.com/images/examples-onlinegiftools/dragunov.gif")
+//     left top
+//     no-repeat
+//   `
+// });
+// })
+
+
+
+// let student = {
+//   name : "ali",
+//   age : 20  , 
+// greet : function(){
+//        console.log(this.age);
+       
+// }    ,
+// birth_year : 2020   ,
+ 
+
+
+// }
+//    student.greet();
+      
+
+   let button = document.getElementById("btn")
+   button.addEventListener("mouseover" , function(){
+    Swal.fire({
+  title: "Greatest Of All Time  ,   GREATNESS NEVER DIES !!!",
   width: 600,
   padding: "3em",
-  color: "#150e75",
-  background: "#fff url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaweRLMtiig_JpIr77NDLM719M31P6J4Agkpgf2z70-Q&s=10)",
+  color: "#716add",
+  background: "#fff url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkdqU5sH7XbWLBv8heSDdchU7KYIfbalbtJcgMqIcni_lrW0FbDct3n4&s=10)",
   backdrop: `
-    rgba(192, 194, 75, 0.4)
-    url("https://onlinegiftools.com/images/examples-onlinegiftools/dragunov.gif")
+    rgba(0,0,123,0.4)
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeSYPavuLB6p2xOstpMzhbBFkU4e4dP46p52V_VUIYcg&s")
     left top
     no-repeat
   `
 });
-})
-      
+   })
+
+
+
+
+
+
+
+
+
+
+
+
