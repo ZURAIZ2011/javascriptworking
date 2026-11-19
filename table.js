@@ -930,16 +930,26 @@
 // })
 
 
-let box = document.getElementById("box1")
+// let box = document.getElementById("box1")
 
-box.addEventListener("mouseover", function(){
-   box.style.backgroundColor = "red"
-})
+// box.addEventListener("mouseover", function(){
+//    box.style.backgroundColor = "red"
+//    box.style.borderRadius = "0%"
+//    box.style.border = "2px solid black"
+// })
 
 
 
-box.addEventListener("mouseout", function(){
-   box.style.backgroundColor = "blue"
+// box.addEventListener("mouseout", function(){
+//    box.style.backgroundColor = "blue"
+//    box.style.borderRadius= "50%"
   
-})
+// })
 
+
+
+let input = document.getElementById("user")
+input.addEventListener("keydown" , function(event){
+        console.log(event.key);
+        
+})
