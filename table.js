@@ -895,32 +895,12 @@
 //   age : 20  , 
 // greet : function(){
 //        console.log(this.age);
-       
+
 // }    ,
 // birth_year : 2020   ,
- 
-
 
 // }
 //    student.greet();
-      
-
-   let button = document.getElementById("btn")
-   button.addEventListener("mouseover" , function(){
-    Swal.fire({
-  title: "Greatest Of All Time  ,   GREATNESS NEVER DIES !!!",
-  width: 600,
-  padding: "3em",
-  color: "#716add",
-  background: "#fff url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkdqU5sH7XbWLBv8heSDdchU7KYIfbalbtJcgMqIcni_lrW0FbDct3n4&s=10)",
-  backdrop: `
-    rgba(0,0,123,0.4)
-    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeSYPavuLB6p2xOstpMzhbBFkU4e4dP46p52V_VUIYcg&s")
-    left top
-    no-repeat
-  `
-});
-   })
 
 
 
@@ -932,4 +912,34 @@
 
 
 
+// let button = document.getElementById("btn")
+// button.addEventListener("mouseover", function () {
+//   Swal.fire({
+//     title: "Greatest Of All Time  ,   GREATNESS NEVER DIES !!!",
+//     width: 600,
+//     padding: "3em",
+//     color: "#0a0711",
+//     background: "#fff url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkdqU5sH7XbWLBv8heSDdchU7KYIfbalbtJcgMqIcni_lrW0FbDct3n4&s=10)",
+//     backdrop: `
+//     rgba(1, 8, 20, 0.4)
+//     url("https://i.makeagif.com/media/2-25-2015/Cuf-73.gif")
+//     left top
+//     no-repeat
+//   `
+//   });
+// })
+
+
+let box = document.getElementById("box1")
+
+box.addEventListener("mouseover", function(){
+   box.style.backgroundColor = "red"
+})
+
+
+
+box.addEventListener("mouseout", function(){
+   box.style.backgroundColor = "blue"
+  
+})
 
