@@ -943,13 +943,39 @@
 // box.addEventListener("mouseout", function(){
 //    box.style.backgroundColor = "blue"
 //    box.style.borderRadius= "50%"
-  
+
+// })
+
+
+// input field 
+
+// let input = document.getElementById("user")
+
+// input.addEventListener("keydown" , function(event){
+//         console.log(event.key);
+
 // })
 
 
 
-let input = document.getElementById("user")
-input.addEventListener("keydown" , function(event){
-        console.log(event.key);
-        
+let count = 0
+
+let counter = document.getElementById("start")
+let reset_1 = document.getElementById("reset")
+let increase = document.getElementById("incr")
+let decrease = document.getElementById("decr")
+
+increase.addEventListener("click", function () {
+        count++
+        counter.innerText = count
+})
+
+decrease.addEventListener("click", function () {
+        count--
+        counter.innerText = count
+})
+
+reset_1.addEventListener("click" , function(){
+        count = 0
+        counter.innerText = count
 })
