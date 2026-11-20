@@ -958,6 +958,9 @@
 
 
 
+
+// counter application 
+
 let count = 0
 
 let counter = document.getElementById("start")
@@ -967,7 +970,7 @@ let decrease = document.getElementById("decr")
 
 increase.addEventListener("click", function () {
         count++
-        counter.innerText = count
+        counter.innerText = count                                     //   variablename.innerText = any variable  kisi variable ke brabr kr skte hain
 })
 
 decrease.addEventListener("click", function () {
