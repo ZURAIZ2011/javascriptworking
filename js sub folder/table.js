@@ -961,24 +961,58 @@
 
 // counter application 
 
-let count = 0
+// let count = 0
 
-let counter = document.getElementById("start")
-let reset_1 = document.getElementById("reset")
-let increase = document.getElementById("incr")
-let decrease = document.getElementById("decr")
+// let counter = document.getElementById("start")
+// let reset_1 = document.getElementById("reset")
+// let increase = document.getElementById("incr")
+// let decrease = document.getElementById("decr")
 
-increase.addEventListener("click", function () {
-        count++
-        counter.innerText = count                                     //   variablename.innerText = any variable  kisi variable ke brabr kr skte hain
-})
+// increase.addEventListener("click", function () {
+//         count++
+//         counter.innerText = count                                     //   variablename.innerText = any variable  kisi variable ke brabr kr skte hain
+// })
 
-decrease.addEventListener("click", function () {
-        count--
-        counter.innerText = count
-})
+// decrease.addEventListener("click", function () {
+//         count--
+//         counter.innerText = count
+// })
 
-reset_1.addEventListener("click" , function(){
-        count = 0
-        counter.innerText = count
-})
+// reset_1.addEventListener("click" , function(){
+//         count = 0
+//         counter.innerText = count
+// })
+
+
+
+
+
+
+
+
+
+// js new version methods for array
+// forEach( )
+
+
+
+// let student = ["ali", "sara", "ahmed", "hamza"]
+
+
+// student.forEach((elem, i) => {
+//  console.log(elem, i)
+ //       }     )                                                
+                                                                                                                                                                                                                                                        
+
+
+
+// let num = [10, 20, 30, 40, 50]
+
+// let result = num.map( (index) => {                                          //arrow function used
+//         return index * 2
+// } )
+
+
+// console.log(result);
+
+
