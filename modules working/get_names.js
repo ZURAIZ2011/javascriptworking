@@ -6,7 +6,7 @@ export function get_names (){
 
     names.forEach(  (elem ) => {
             
-   paragraph.innerText +=  `${elem} <br>`
+   paragraph.innerText +=  elem
  } )
 }
 
