@@ -1016,3 +1016,25 @@
 // console.log(result);
 
 
+
+// synchronous 
+console.log("start");                                                               // runs first
+console.log("data fetching ... ");                                                   // runs second            
+console.log("end");                                                                  // runs third
+
+
+// A synchronous 
+
+console.log("start");                                                                   //  runs first
+
+setTimeout( function(){
+    console.log("data fetching ... ");                                                   // runs third                                 // time consuming
+    
+} , 3000)
+
+console.log("end");                                                                       //   runs second
+
+
+
+
+
