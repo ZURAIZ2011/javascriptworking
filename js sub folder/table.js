@@ -1042,7 +1042,7 @@
 
 // let start = document.getElementById("start")
 
-let button = document.getElementById("reset")
+// let button = document.getElementById("reset")
 
 // button.addEventListener("click" , function(){
 //     setTimeout( ()=> {
@@ -1057,14 +1057,27 @@ let button = document.getElementById("reset")
 
 
 
-button.addEventListener("click" , function(){
-    setInterval( ()=> {
-        for(let i = 1 ; i<= 5 ; i++){
-            console.log(i);
-            }
+// button.addEventListener("click" , function(){
+//     setInterval( ()=> {
+//         for(let i = 1 ; i<= 5 ; i++){
+//             console.log(i);
+//             }
 
        
-    } , 3000  )
-})
+//     } , 3000  )
+// })
 
 
+
+
+
+
+let count = 0
+let myinterval = setInterval(  function (){
+     count ++
+     if(count <= 5){
+        console.log(hello);
+     } else{
+        clearInterval(myinterval)
+     }
+} , 2000)
