@@ -1076,7 +1076,7 @@ let count = 0
 let myinterval = setInterval(  function (){
      count ++
      if(count <= 5){
-        console.log(hello);
+        console.log("hello");
      } else{
         clearInterval(myinterval)
      }
