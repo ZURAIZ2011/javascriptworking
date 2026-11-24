@@ -1017,13 +1017,15 @@
 
 
 
+
+
 // synchronous 
 console.log("start");                                                               // runs first
 console.log("data fetching ... ");                                                   // runs second            
 console.log("end");                                                                  // runs third
 
 
-// A synchronous 
+// A synchronous                        syntax :  setTimeout( function , time   )
 
 console.log("start");                                                                   //  runs first
 
