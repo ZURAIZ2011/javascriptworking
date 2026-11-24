@@ -1020,23 +1020,51 @@
 
 
 // synchronous 
-console.log("start");                                                               // runs first
-console.log("data fetching ... ");                                                   // runs second            
-console.log("end");                                                                  // runs third
+// console.log("start");                                                               // runs first
+// console.log("data fetching ... ");                                                   // runs second            
+// console.log("end");                                                                  // runs third
 
 
-// A synchronous                        syntax :  setTimeout( function , time   )
+// // A synchronous                        syntax :  setTimeout( function , time   )
 
-console.log("start");                                                                   //  runs first
+// console.log("start");                                                                   //  runs first
 
-setTimeout( function(){
-    console.log("data fetching ... ");                                                   // runs third                                 // time consuming
+// setTimeout( function(){
+//     console.log("data fetching ... ");                                                   // runs third                                 // time consuming
     
-} , 3000)
+// } , 3000)
 
-console.log("end");                                                                       //   runs second
+// console.log("end");                                                                       //   runs second
 
 
 
+// counter program    using Asynchronous        
+
+// let start = document.getElementById("start")
+
+let button = document.getElementById("reset")
+
+// button.addEventListener("click" , function(){
+//     setTimeout( ()=> {
+//         for(let i = 1 ; i<= 5 ; i++){
+//             console.log(i);
+//             }
+
+//         // start.innerText = "1  2   3   4   5"
+//     } , 3000  )
+// })
+
+
+
+
+button.addEventListener("click" , function(){
+    setInterval( ()=> {
+        for(let i = 1 ; i<= 5 ; i++){
+            console.log(i);
+            }
+
+       
+    } , 3000  )
+})
 
 
