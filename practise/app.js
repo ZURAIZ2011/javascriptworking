@@ -24,7 +24,7 @@ addition.addEventListener("click", function () {
 
 })
 
-
+// subtraction button 
 let subtraction = document.getElementById("sub")
 subtraction.addEventListener("click", function () {
     let inp_1 = +input_1.value
