@@ -33,7 +33,7 @@ subtraction.addEventListener("click", function () {
     console.log(result);
 })
 
-
+// multiplication button 
 let multiplication = document.getElementById("multi")
 multiplication.addEventListener("click", function () {
     let inp_1 = +input_1.value
