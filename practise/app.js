@@ -1,3 +1,5 @@
+// calculator application 
+
 
 let input_1 = document.getElementById("num1")
 let input_2 = document.getElementById("num2")
