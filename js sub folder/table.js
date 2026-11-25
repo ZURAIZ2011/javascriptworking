@@ -1078,6 +1078,6 @@ let myinterval = setInterval(  function (){
      if(count <= 5){
         console.log("hello");
      } else{
-        clearInterval(myinterval)
+        clearInterval(myinterval)                                                         // clearInterval stops the program at that point
      }
-} , 2000)
+} , 1000)
