@@ -13,7 +13,7 @@ let input_2 = document.getElementById("num2")
 
 let addition = document.getElementById("add")
 
-
+// addition button 
 addition.addEventListener("click", function () {
     // console.log("click");      
     let inp_1 = +input_1.value
