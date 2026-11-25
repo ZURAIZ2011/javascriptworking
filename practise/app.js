@@ -42,7 +42,7 @@ multiplication.addEventListener("click", function () {
     console.log(result);
 })
 
-
+// division button 
 let division = document.getElementById("divide")
 division.addEventListener("click", function () {
     let inp_1 = +input_1.value
@@ -50,7 +50,7 @@ division.addEventListener("click", function () {
     let result = inp_1 / inp_2
     console.log(result);
 })
-
+//   clear button
 let clear = document.getElementById("cls")
 clear.addEventListener("click" , function(){
             input_1.value = " "
