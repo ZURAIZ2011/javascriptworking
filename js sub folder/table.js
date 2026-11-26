@@ -1001,8 +1001,8 @@
 
 // student.forEach((elem, i) => {
 //  console.log(elem, i)
- //       }     )                                                
-                                                                                                                                                                                                                                                        
+//       }     )                                                
+
 
 
 
@@ -1031,7 +1031,7 @@
 
 // setTimeout( function(){
 //     console.log("data fetching ... ");                                                   // runs third                                 // time consuming
-    
+
 // } , 3000)
 
 // console.log("end");                                                                       //   runs second
@@ -1063,7 +1063,7 @@
 //             console.log(i);
 //             }
 
-       
+
 //     } , 3000  )
 // })
 
@@ -1072,12 +1072,79 @@
 
 
 
-let count = 0
-let myinterval = setInterval(  function (){
-     count ++
-     if(count <= 5){
-        console.log("hello");
-     } else{
-        clearInterval(myinterval)                                                         // clearInterval stops the program at that point
-     }
-} , 1000)
+// let count = 0
+// let myinterval = setInterval(  function (){
+//      count ++
+//      if(count <= 5){
+//         console.log("hello");
+//      } else{
+//         clearInterval(myinterval)                                                         // clearInterval stops the program at that point
+//      }
+// } , 1000)
+
+
+
+
+
+
+
+
+
+
+
+
+// promises  in js
+
+// let promise = new Promise( function(resolve , reject){
+//     let output = false
+
+//     if(output == true){
+//           resolve("successful")
+//     }else{
+//             reject("failed")
+//     }
+// })
+
+// promise.then(function(result){                                                                  // result stores resolve value
+// console.log(result);
+// })
+
+// .catch(function(error){                                                                     // error stores  reject  value
+// console.log(error);
+// })
+
+
+
+
+// practise again with setTimeout 
+
+let promise = new Promise(function (resolve, reject) {
+
+   setTimeout(function () {
+      let output = true
+      if (output == true) {
+         resolve("successful")
+      } else {
+         reject("failed")
+      }
+   }, 2000)
+} )
+
+
+ console.log(promise);                                                           // to check condition of promise    "pending"
+ 
+promise.then(function(result){
+   console.log(result);
+   
+})
+
+promise.catch(function(error){
+   console.log(error);
+   
+})
+
+setTimeout(function(){
+   console.log(promise);                                                               // to check condition of promise    " fulfilled"
+   
+} , 4000)
+
