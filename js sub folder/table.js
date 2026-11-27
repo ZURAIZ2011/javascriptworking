@@ -1220,4 +1220,8 @@ async function work(){
    console.log(result_3);
 }
 
-work()
+work()                                                          // calling
+
+
+// new method   above one
+
