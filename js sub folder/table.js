@@ -1118,33 +1118,106 @@
 
 // practise again with setTimeout 
 
-let promise = new Promise(function (resolve, reject) {
+// let promise = new Promise(function (resolve, reject) {
 
-   setTimeout(function () {
-      let output = true
-      if (output == true) {
-         resolve("successful")
-      } else {
-         reject("failed")
-      }
-   }, 2000)
-} )
+//    setTimeout(function () {
+//       let output = true
+//       if (output == true) {
+//          resolve("successful")
+//       } else {
+//          reject("failed")
+//       }
+//    }, 2000)
+// } )
 
 
- console.log(promise);                                                           // to check condition of promise    "pending"
+//  console.log(promise);                                                           // to check condition of promise    "pending"
  
-promise.then(function(result){
-   console.log(result);
+// promise.then(function(result){
+//    console.log(result);
    
-})
+// })
 
-promise.catch(function(error){
-   console.log(error);
+// promise.catch(function(error){
+//    console.log(error);
    
-})
+// })
 
-setTimeout(function(){
-   console.log(promise);                                                               // to check condition of promise    " fulfilled"
+
+// setTimeout(function(){
+//    console.log(promise);                                                               // to check condition of promise    " fulfilled"
    
-} , 4000)
+// } , 4000)
 
+
+
+
+
+// promise chaning   
+
+function learn(){                                                                                                  // function 1
+   return new Promise(function(resolve){
+      resolve("learning completed")
+    })
+}
+
+
+function practise(){                                                                                               // function 2
+   return new Promise(function(resolve){
+      resolve("practise completed")
+    })
+}
+
+
+function test(){                                                                                                     // function 3
+   return new Promise(function(resolve){
+      resolve("testing completed")
+    })
+}
+
+
+
+// learn()
+// .then(function(result) { 
+//    console.log(result);
+//    return practise()
+// })
+
+
+// .then(function(result){
+//    console.log(result);
+//    return test()
+// })
+
+
+// .then(function(result){
+//    console.log(result);
+
+// })
+
+ 
+// .catch(function(error){
+//    console.log(error);
+// })
+
+
+
+
+// above one is an old method
+
+
+
+
+async function work(){
+
+   let result_1 = await learn()
+   console.log(result_1);
+
+ let result_2 = await practise()
+   console.log(result_2);
+
+    let result_3 = await test()
+   console.log(result_3);
+}
+
+work()
