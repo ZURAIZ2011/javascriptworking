@@ -1177,6 +1177,7 @@ function test(){                                                                
 
 
 
+
 // learn()
 // .then(function(result) { 
 //    console.log(result);
@@ -1223,5 +1224,5 @@ async function work(){
 work()                                                          // calling
 
 
-// new method   above one
+//  above one is new method   
 
